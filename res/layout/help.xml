@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkgrnd"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="도움말"
+        android:textColor="#f0ff00"
+        android:textSize="40sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" >
+
+        <TextView
+            android:id="@+id/helptext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#00f0ff"
+            android:textSize="50sp" />
+    </ScrollView>
+
+</LinearLayout>
